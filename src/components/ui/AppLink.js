@@ -13,12 +13,10 @@ export default function AppLink({ href, children, className = '', ...props }) {
     );
   }
 
-  // For internal links, prepend the basePath in production
-  const basePath = process.env.NODE_ENV === 'production' ? '/d26-i7-SimWork' : '';
-  const fullPath = `${basePath}${href}`;
-
+  // For internal links, use Next.js Link component which will handle the basePath
+  // The basePath is already configured in next.config.mjs
   return (
-    <Link href={fullPath} className={className} {...props}>
+    <Link href={href} className={className} {...props}>
       {children}
     </Link>
   );

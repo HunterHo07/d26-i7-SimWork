@@ -9,6 +9,7 @@ export function useBasePath() {
 }
 
 export function getImagePath(path) {
-  const basePath = process.env.NODE_ENV === 'production' ? '/d26-i7-SimWork' : '';
-  return `${basePath}${path}`;
+  // The basePath is already configured in next.config.mjs
+  // Just ensure the path starts with a slash
+  return path.startsWith('/') ? path : `/${path}`;
 }

@@ -27,7 +27,6 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content="work simulation, AI training, skill development, hiring assessment, immersive learning" />
         <title>SimWork - The Future of Work Simulation</title>
         <link rel="icon" href={`${basePath}/favicon.ico`} />
-        <base href={basePath || '/'} />
         <script type="text/javascript" dangerouslySetInnerHTML={{
           __html: `
             // Single Page Apps for GitHub Pages
