@@ -4,7 +4,6 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Section from '../ui/Section';
 import SectionHeading from '../ui/SectionHeading';
-import { getImagePath } from '@/lib/utils';
 
 export default function ComparisonSection() {
   const [sliderPosition, setSliderPosition] = useState(50);
@@ -26,7 +25,7 @@ export default function ComparisonSection() {
           {/* Traditional Side */}
           <div className="absolute inset-0 z-10">
             <Image
-              src={getImagePath('/images/developer.jpg')}
+              src="/images/developer.jpg"
               alt="Traditional Training"
               fill
               className="object-cover"
@@ -69,7 +68,7 @@ export default function ComparisonSection() {
             style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
           >
             <Image
-              src={getImagePath('/images/workspace.jpg')}
+              src="/images/workspace.jpg"
               alt="SimWork Platform"
               fill
               className="object-cover"

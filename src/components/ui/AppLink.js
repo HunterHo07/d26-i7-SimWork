@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import { getImagePath } from '@/lib/utils';
 
 export default function AppLink({ href, children, className = '', ...props }) {
   // If the href is an external link, use it as is

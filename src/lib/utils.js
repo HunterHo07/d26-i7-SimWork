@@ -8,8 +8,15 @@ export function useBasePath() {
   return basePath;
 }
 
+export function getBasePath() {
+  // Non-hook version for use in components that don't use hooks
+  return process.env.NODE_ENV === 'production' ? '/d26-i7-SimWork' : '';
+}
+
 export function getImagePath(path) {
-  // The basePath is already configured in next.config.mjs
-  // Just ensure the path starts with a slash
-  return path.startsWith('/') ? path : `/${path}`;
+  // Add the basePath for production environment
+  const basePath = getBasePath();
+  // Ensure the path starts with a slash
+  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+  return `${basePath}${normalizedPath}`;
 }

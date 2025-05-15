@@ -6,7 +6,6 @@ import Section from '@/components/ui/Section';
 import SectionHeading from '@/components/ui/SectionHeading';
 import Button from '@/components/ui/Button';
 import AuroraBackground from '@/components/animations/AuroraBackground';
-import { getImagePath } from '@/lib/utils';
 
 export default function WhyUsPage() {
   const reasons = [
@@ -133,7 +132,7 @@ export default function WhyUsPage() {
                 </div>
                 <div className="relative h-64 lg:h-auto">
                   <Image
-                    src={getImagePath('/images/workspace.jpg')}
+                    src="/images/workspace.jpg"
                     alt="SimWork Workspace"
                     fill
                     className="object-cover"

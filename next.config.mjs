@@ -8,8 +8,12 @@ const nextConfig = {
     unoptimized: true,
   },
   basePath: isProd ? `/${repoName}` : '',
-  assetPrefix: isProd ? `/${repoName}/` : '',
+  assetPrefix: isProd ? `/${repoName}` : '', // Removed trailing slash to avoid double slashes
   trailingSlash: true,
+  // Ensure static assets are properly handled
+  webpack: (config) => {
+    return config;
+  },
 };
 
 export default nextConfig;

@@ -7,39 +7,38 @@ import SectionHeading from '@/components/ui/SectionHeading';
 import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
 import AuroraBackground from '@/components/animations/AuroraBackground';
-import { getImagePath } from '@/lib/utils';
 
 export default function ShowcasePage() {
   const showcaseItems = [
     {
       title: "Developer Station",
       description: "Code in real terminals, solve programming challenges, and build your technical skills.",
-      image: getImagePath("/images/developer.jpg"),
+      image: "/images/developer.jpg",
     },
     {
       title: "Designer Station",
       description: "Create and submit designs for AI evaluation, develop your visual communication abilities.",
-      image: getImagePath("/images/designer.jpg"),
+      image: "/images/designer.jpg",
     },
     {
       title: "Project Manager Dashboard",
       description: "Coordinate tasks, manage resources, and make strategic decisions.",
-      image: getImagePath("/images/workspace.jpg"),
+      image: "/images/workspace.jpg",
     },
     {
       title: "Data Entry Station",
       description: "Practice accuracy and efficiency in data processing with real-time feedback.",
-      image: getImagePath("/images/workspace.jpg"),
+      image: "/images/workspace.jpg",
     },
     {
       title: "AI Engineer Station",
       description: "Craft prompts and optimize AI workflows to solve complex problems.",
-      image: getImagePath("/images/developer.jpg"),
+      image: "/images/developer.jpg",
     },
     {
       title: "Analytics Dashboard",
       description: "Track your progress and performance metrics across all skill areas.",
-      image: getImagePath("/images/designer.jpg"),
+      image: "/images/designer.jpg",
     },
   ];
 
