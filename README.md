@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SimWork: The Future of Work Simulation
+
+## About SimWork
+
+SimWork is an AI-driven immersive work simulation platform that revolutionizes how people learn, practice, and demonstrate professional skills. By combining game mechanics with realistic work scenarios, SimWork creates an engaging environment where users can develop practical skills across multiple roles:
+
+- **Developer**: Code in real terminals, solve programming challenges
+- **Designer**: Create and submit designs for AI evaluation
+- **Project Manager**: Coordinate tasks and manage resources
+- **Data Entry**: Practice accuracy and efficiency in data processing
+- **AI Engineer**: Craft prompts and optimize AI workflows
+
+## Why SimWork Exists
+
+Traditional training and hiring processes are broken:
+
+- **Wrong Hires, Wasted Money**: Companies hire based on interviews, not demonstrated skills
+- **Fake Skills, No Real Test**: Candidates can talk about skills but rarely prove them
+- **Slow, Inefficient Hiring**: Multiple rounds of interviews without seeing actual work output
+- **No KPI or Proof of Skill**: Limited data on actual performance capabilities
+
+SimWork solves these problems by providing an immersive environment where skills can be demonstrated, measured, and improved in a realistic context.
+
+## Key Features
+
+- **Immersive 2.5D Environment**: Navigate a stylized workspace with different role stations
+- **Real Tool Integration**: Use actual terminals, design interfaces, and data entry forms
+- **AI-Powered Adaptivity**: Tasks adjust in difficulty based on user performance
+- **Real-Time Analytics**: Track accuracy, speed, and decision quality
+- **Procedural Challenges**: AI-generated tasks ensure variety and relevance
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Vision & Roadmap
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+SimWork is evolving through three key phases:
+
+1. **Phase 1 (Current)**: Web-based 2.5D simulation with core roles and tasks
+2. **Phase 2**: Desktop/mobile apps with expanded scenarios and role options
+3. **Phase 3**: VR/AR integration and multiplayer enterprise modules
 
 ## Learn More
 
-To learn more about Next.js, take a look at the following resources:
+- [Research & Market Analysis](./research.md)
+- [Development Guide](./development.md)
+- [Task Progress](./todoList.md)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+SimWork: Practice Today, Excel Tomorrow
