@@ -4,6 +4,11 @@
   "devCommand": "npm run dev",
   "outputDirectory": ".next",
   "framework": "nextjs",
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  },
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
