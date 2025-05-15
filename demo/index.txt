@@ -1,23 +1,26 @@
 1:"$Sreact.fragment"
-2:I[7555,[],""]
-3:I[1295,[],""]
-4:I[2613,["261","static/chunks/261-dff5c7827836a296.js","316","static/chunks/316-4e6769de97670307.js","345","static/chunks/app/not-found-db5d0fa563f0afec.js"],"default"]
-5:I[894,[],"ClientPageRoot"]
-6:I[4738,["261","static/chunks/261-dff5c7827836a296.js","316","static/chunks/316-4e6769de97670307.js","436","static/chunks/app/demo/page-ef5d60883a33d977.js"],"default"]
-9:I[9665,[],"MetadataBoundary"]
-b:I[9665,[],"OutletBoundary"]
-e:I[4911,[],"AsyncMetadataOutlet"]
-10:I[9665,[],"ViewportBoundary"]
-12:I[6614,[],""]
+2:I[4970,[],"ClientSegmentRoot"]
+3:I[1653,["177","static/chunks/app/layout-9a6eac5d18b39afb.js"],"default"]
+4:I[7555,[],""]
+5:I[1295,[],""]
+6:I[2613,["261","static/chunks/261-15da3f370737f360.js","316","static/chunks/316-715229ee35e96d4a.js","345","static/chunks/app/not-found-db5d0fa563f0afec.js"],"default"]
+8:I[894,[],"ClientPageRoot"]
+9:I[4738,["261","static/chunks/261-15da3f370737f360.js","316","static/chunks/316-715229ee35e96d4a.js","436","static/chunks/app/demo/page-ef5d60883a33d977.js"],"default"]
+c:I[9665,[],"MetadataBoundary"]
+e:I[9665,[],"OutletBoundary"]
+11:I[4911,[],"AsyncMetadataOutlet"]
+13:I[9665,[],"ViewportBoundary"]
+15:I[6614,[],""]
 :HL["/d26-i7-SimWork/_next/static/css/27e01e7ffc4d3c8b.css","style"]
-0:{"P":null,"b":"8g8d4NedZOue2PVXgUOyw","p":"/d26-i7-SimWork","c":["","demo",""],"i":false,"f":[[["",{"children":["demo",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/d26-i7-SimWork/_next/static/css/27e01e7ffc4d3c8b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"/favicon.ico"}]}],["$","body",null,{"className":"__variable_d6528a __variable_265378 antialiased bg-white dark:bg-dark-400 text-gray-900 dark:text-white","children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L4",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":["demo",["$","$1","c",{"children":[null,["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L5",null,{"Component":"$6","searchParams":{},"params":{},"promises":["$@7","$@8"]}],["$","$L9",null,{"children":"$La"}],null,["$","$Lb",null,{"children":["$Lc","$Ld",["$","$Le",null,{"promise":"$@f"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","s2pVBhMPA5BJvHocz62ob",{"children":[["$","$L10",null,{"children":"$L11"}],null]}],null]}],false]],"m":"$undefined","G":["$12","$undefined"],"s":false,"S":true}
-13:"$Sreact.suspense"
-14:I[4911,[],"AsyncMetadata"]
+0:{"P":null,"b":"_N9DEWDpOGig1dNGbVrX0","p":"/d26-i7-SimWork","c":["","demo",""],"i":false,"f":[[["",{"children":["demo",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/d26-i7-SimWork/_next/static/css/27e01e7ffc4d3c8b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L2",null,{"Component":"$3","slots":{"children":["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","$L6",null,{}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]},"params":{},"promise":"$@7"}]]}],{"children":["demo",["$","$1","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L8",null,{"Component":"$9","searchParams":{},"params":"$0:f:0:1:1:props:children:1:props:params","promises":["$@a","$@b"]}],["$","$Lc",null,{"children":"$Ld"}],null,["$","$Le",null,{"children":["$Lf","$L10",["$","$L11",null,{"promise":"$@12"}]]}]]}],{},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","3D-HHjxcFEsxvMt8kiakG",{"children":[["$","$L13",null,{"children":"$L14"}],null]}],null]}],false]],"m":"$undefined","G":["$15","$undefined"],"s":false,"S":true}
+16:"$Sreact.suspense"
+17:I[4911,[],"AsyncMetadata"]
 7:{}
-8:{}
-a:["$","$13",null,{"fallback":null,"children":["$","$L14",null,{"promise":"$@15"}]}]
-d:null
-11:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-c:null
-15:{"metadata":[["$","title","0",{"children":"SimWork - The Future of Work Simulation"}],["$","meta","1",{"name":"description","content":"SimWork is an AI-driven immersive work simulation platform that revolutionizes how people learn, practice, and demonstrate professional skills."}],["$","meta","2",{"name":"keywords","content":"work simulation, AI training, skill development, hiring assessment, immersive learning"}],["$","link","3",{"rel":"icon","href":"/d26-i7-SimWork/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
-f:{"metadata":"$15:metadata","error":null,"digest":"$undefined"}
+a:{}
+b:{}
+d:["$","$16",null,{"fallback":null,"children":["$","$L17",null,{"promise":"$@18"}]}]
+10:null
+14:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+f:null
+18:{"metadata":[["$","link","0",{"rel":"icon","href":"/d26-i7-SimWork/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+12:{"metadata":"$18:metadata","error":null,"digest":"$undefined"}
