@@ -7,38 +7,39 @@ import SectionHeading from '@/components/ui/SectionHeading';
 import Button from '@/components/ui/Button';
 import Card from '@/components/ui/Card';
 import AuroraBackground from '@/components/animations/AuroraBackground';
+import { getImagePath } from '@/lib/utils';
 
 export default function ShowcasePage() {
   const showcaseItems = [
     {
       title: "Developer Station",
       description: "Code in real terminals, solve programming challenges, and build your technical skills.",
-      image: "/images/developer.jpg",
+      image: getImagePath("/images/developer.jpg"),
     },
     {
       title: "Designer Station",
       description: "Create and submit designs for AI evaluation, develop your visual communication abilities.",
-      image: "/images/designer.jpg",
+      image: getImagePath("/images/designer.jpg"),
     },
     {
       title: "Project Manager Dashboard",
       description: "Coordinate tasks, manage resources, and make strategic decisions.",
-      image: "/images/workspace.jpg",
+      image: getImagePath("/images/workspace.jpg"),
     },
     {
       title: "Data Entry Station",
       description: "Practice accuracy and efficiency in data processing with real-time feedback.",
-      image: "/images/workspace.jpg",
+      image: getImagePath("/images/workspace.jpg"),
     },
     {
       title: "AI Engineer Station",
       description: "Craft prompts and optimize AI workflows to solve complex problems.",
-      image: "/images/developer.jpg",
+      image: getImagePath("/images/developer.jpg"),
     },
     {
       title: "Analytics Dashboard",
       description: "Track your progress and performance metrics across all skill areas.",
-      image: "/images/designer.jpg",
+      image: getImagePath("/images/designer.jpg"),
     },
   ];
 
@@ -46,14 +47,14 @@ export default function ShowcasePage() {
     <MainLayout>
       <div className="relative pt-20">
         <AuroraBackground />
-        
+
         <Section className="relative z-10">
           <SectionHeading
             title="SimWork Showcase"
             subtitle="Explore the features and capabilities of our immersive work simulation platform"
             centered
           />
-          
+
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {showcaseItems.map((item, index) => (
@@ -66,11 +67,11 @@ export default function ShowcasePage() {
                 />
               ))}
             </div>
-            
+
             <div className="mt-16 bg-white dark:bg-dark-300 rounded-xl overflow-hidden shadow-xl">
               <div className="p-8">
                 <h3 className="text-2xl font-bold mb-4 text-center">Feature Highlights</h3>
-                
+
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
                   <div className="space-y-6">
                     <div className="flex items-start gap-4">
@@ -84,7 +85,7 @@ export default function ShowcasePage() {
                         <p className="text-gray-600 dark:text-gray-400">Navigate a stylized 2.5D workspace with different role stations and interactive elements.</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 flex items-center justify-center flex-shrink-0">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -96,7 +97,7 @@ export default function ShowcasePage() {
                         <p className="text-gray-600 dark:text-gray-400">Use actual terminals, design interfaces, and data entry forms that mirror professional tools.</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 flex items-center justify-center flex-shrink-0">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -109,7 +110,7 @@ export default function ShowcasePage() {
                       </div>
                     </div>
                   </div>
-                  
+
                   <div className="space-y-6">
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 flex items-center justify-center flex-shrink-0">
@@ -122,7 +123,7 @@ export default function ShowcasePage() {
                         <p className="text-gray-600 dark:text-gray-400">Track accuracy, speed, and decision quality with detailed performance metrics.</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 flex items-center justify-center flex-shrink-0">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -134,7 +135,7 @@ export default function ShowcasePage() {
                         <p className="text-gray-600 dark:text-gray-400">Choose from Developer, Designer, PM, Data Entry, or AI Engineer roles to match your career goals.</p>
                       </div>
                     </div>
-                    
+
                     <div className="flex items-start gap-4">
                       <div className="w-12 h-12 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-600 dark:text-primary-400 flex items-center justify-center flex-shrink-0">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -148,7 +149,7 @@ export default function ShowcasePage() {
                     </div>
                   </div>
                 </div>
-                
+
                 <div className="mt-12 text-center">
                   <Button href="/demo" size="lg">Experience the Demo</Button>
                 </div>

@@ -5,6 +5,7 @@ import Button from '../ui/Button';
 import AuroraBackground from '../animations/AuroraBackground';
 import ParticleField from '../animations/ParticleField';
 import GradientText from '../animations/GradientText';
+import { getImagePath } from '@/lib/utils';
 
 export default function HeroSection() {
   return (
@@ -40,7 +41,7 @@ export default function HeroSection() {
                 <div className="w-full h-full p-4">
                   <div className="relative w-full h-full rounded-xl overflow-hidden border-2 border-white/20 shadow-2xl">
                     <Image
-                      src="/images/workspace.jpg"
+                      src={getImagePath('/images/workspace.jpg')}
                       alt="SimWork Workspace"
                       fill
                       className="object-cover"

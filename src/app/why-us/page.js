@@ -6,6 +6,7 @@ import Section from '@/components/ui/Section';
 import SectionHeading from '@/components/ui/SectionHeading';
 import Button from '@/components/ui/Button';
 import AuroraBackground from '@/components/animations/AuroraBackground';
+import { getImagePath } from '@/lib/utils';
 
 export default function WhyUsPage() {
   const reasons = [
@@ -69,18 +70,18 @@ export default function WhyUsPage() {
     <MainLayout>
       <div className="relative pt-20">
         <AuroraBackground />
-        
+
         <Section className="relative z-10">
           <SectionHeading
             title="Why Choose SimWork"
             subtitle="Discover what sets our platform apart from traditional training and assessment methods"
             centered
           />
-          
+
           <div className="max-w-6xl mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {reasons.map((reason, index) => (
-                <div 
+                <div
                   key={index}
                   className="bg-white dark:bg-dark-300 rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300"
                 >
@@ -92,7 +93,7 @@ export default function WhyUsPage() {
                 </div>
               ))}
             </div>
-            
+
             <div className="mt-16 bg-white dark:bg-dark-300 rounded-xl overflow-hidden shadow-xl">
               <div className="grid grid-cols-1 lg:grid-cols-2">
                 <div className="p-8 lg:p-12">
@@ -132,7 +133,7 @@ export default function WhyUsPage() {
                 </div>
                 <div className="relative h-64 lg:h-auto">
                   <Image
-                    src="/images/workspace.jpg"
+                    src={getImagePath('/images/workspace.jpg')}
                     alt="SimWork Workspace"
                     fill
                     className="object-cover"
