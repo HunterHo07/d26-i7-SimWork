@@ -4,17 +4,12 @@ const repoName = 'd26-i7-SimWork';
 
 const nextConfig = {
   output: 'export',
-  distDir: 'out',
-  basePath: isProd ? `/${repoName}` : '',
-  assetPrefix: isProd ? `/${repoName}/` : '',
   images: {
     unoptimized: true,
   },
+  basePath: isProd ? `/${repoName}` : '',
+  assetPrefix: isProd ? `/${repoName}/` : '',
   trailingSlash: true,
-  reactStrictMode: true,
-  experimental: {
-    appDir: true,
-  },
 };
 
 export default nextConfig;
