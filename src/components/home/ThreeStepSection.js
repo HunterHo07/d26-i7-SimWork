@@ -4,6 +4,7 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Section from '../ui/Section';
 import SectionHeading from '../ui/SectionHeading';
+import { getImagePath } from '@/lib/utils';
 
 export default function ThreeStepSection() {
   const [activeStep, setActiveStep] = useState(1);

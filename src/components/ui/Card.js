@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import AppLink from './AppLink';
-import { getImagePath } from '@/lib/utils';
 
 export default function Card({
   title,
