@@ -9,7 +9,5 @@
       "main": true
     }
   },
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
-  ]
+  "rewrites": []
 }

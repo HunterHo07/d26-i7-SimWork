@@ -2,12 +2,15 @@
 const nextConfig = {
   // For Vercel deployment, we don't need output: 'export'
   images: {
-    domains: ['vercel.com'],
+    domains: ['vercel.com', 'randomuser.me'],
+    unoptimized: true,
   },
-  // Remove GitHub Pages specific configuration
+  // Ensure CSS is properly loaded
   webpack: (config) => {
     return config;
   },
+  // Ensure PostCSS is properly configured
+  postcss: true,
 };
 
 export default nextConfig;
