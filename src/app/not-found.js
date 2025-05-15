@@ -18,10 +18,10 @@ export default function NotFound() {
             The page you're looking for doesn't exist or has been moved.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button href={process.env.NODE_ENV === 'production' ? '/d26-i7-SimWork' : '/'} size="lg">
+            <Button href="/" size="lg">
               Return Home
             </Button>
-            <Button href={process.env.NODE_ENV === 'production' ? '/d26-i7-SimWork/demo' : '/demo'} variant="outline" size="lg">
+            <Button href="/demo" variant="outline" size="lg">
               Try Demo
             </Button>
           </div>

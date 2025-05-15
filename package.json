@@ -2,15 +2,11 @@
   "name": "d26-i7-SimWork",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hunterho07.github.io/d26-i7-SimWork",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next build && touch out/.nojekyll && cp public/404.html out/404.html",
-    "predeploy": "npm run export",
-    "deploy": "gh-pages -d out -t true"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.1.0",
@@ -19,7 +15,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
-    "gh-pages": "^6.3.0",
     "postcss": "^8.5.3",
     "tailwindcss": "^3.3.0"
   }
