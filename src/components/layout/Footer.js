@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import AppLink from '@/components/ui/AppLink';
 import Logo from './Logo';
 
 export default function Footer() {
@@ -69,12 +69,12 @@ export default function Footer() {
 function FooterLink({ href, label, small = false }) {
   return (
     <li>
-      <Link
+      <AppLink
         href={href}
         className={`text-gray-600 dark:text-gray-400 hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300 ${small ? 'text-sm' : ''}`}
       >
         {label}
-      </Link>
+      </AppLink>
     </li>
   );
 }

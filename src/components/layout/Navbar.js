@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Link from 'next/link';
+import AppLink from '@/components/ui/AppLink';
 import Logo from './Logo';
 
 export default function Navbar() {
@@ -76,23 +76,23 @@ export default function Navbar() {
 
 function NavLink({ href, label }) {
   return (
-    <Link
+    <AppLink
       href={href}
       className="text-gray-700 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-400 font-medium transition-colors duration-300"
     >
       {label}
-    </Link>
+    </AppLink>
   );
 }
 
 function MobileNavLink({ href, label, onClick }) {
   return (
-    <Link
+    <AppLink
       href={href}
       className="block text-gray-700 dark:text-gray-200 hover:text-primary-600 dark:hover:text-primary-400 font-medium py-2 transition-colors duration-300"
       onClick={onClick}
     >
       {label}
-    </Link>
+    </AppLink>
   );
 }

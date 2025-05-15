@@ -1,12 +1,12 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+import AppLink from '@/components/ui/AppLink';
 import { getImagePath } from '@/lib/utils';
 
 export default function Logo({ className = '' }) {
   return (
-    <Link href="/" className={`block ${className}`}>
+    <AppLink href="/" className={`block ${className}`}>
       <Image
         src={getImagePath('/images/simwork-logo.svg')}
         alt="SimWork Logo"
@@ -15,6 +15,6 @@ export default function Logo({ className = '' }) {
         priority
         className="h-auto w-auto"
       />
-    </Link>
+    </AppLink>
   );
 }

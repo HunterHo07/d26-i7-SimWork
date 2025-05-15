@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+import AppLink from './AppLink';
 import { getImagePath } from '@/lib/utils';
 
 export default function Card({
@@ -16,13 +16,13 @@ export default function Card({
   const CardWrapper = ({ children }) => {
     if (href) {
       return (
-        <Link
+        <AppLink
           href={href}
           className={`block group overflow-hidden rounded-xl bg-white dark:bg-dark-200 shadow-md hover:shadow-xl transition-all duration-300 ${className}`}
           {...props}
         >
           {children}
-        </Link>
+        </AppLink>
       );
     }
 

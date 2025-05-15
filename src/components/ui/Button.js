@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import AppLink from './AppLink';
 
 export default function Button({
   children,
@@ -32,9 +32,9 @@ export default function Button({
 
   if (href) {
     return (
-      <Link href={href} className={styles} {...props}>
+      <AppLink href={href} className={styles} {...props}>
         {children}
-      </Link>
+      </AppLink>
     );
   }
 
