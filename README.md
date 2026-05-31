@@ -1,5 +1,7 @@
 # SimWork: The Future of Work Simulation
 
+Live Demo: https://d26-i7-sim-work.vercel.app
+
 ## About SimWork
 
 SimWork is an AI-driven immersive work simulation platform that revolutionizes how people learn, practice, and demonstrate professional skills. By combining game mechanics with realistic work scenarios, SimWork creates an engaging environment where users can develop practical skills across multiple roles:
